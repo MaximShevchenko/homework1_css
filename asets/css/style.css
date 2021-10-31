@@ -28,6 +28,7 @@ body{
   font-size: 20px;
 }
 .link{ display: inline-block;
+  max-width: 120px;
   color: #926239;
   font-size: 18px ;
   border: 1px solid #926239;
@@ -64,3 +65,8 @@ body{
 /* .sirina{
   width:calc(100%/3);
 } */
+.overflow{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
